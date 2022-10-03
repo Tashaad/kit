@@ -1,0 +1,17 @@
+uuid: 80255604-c4ae-449d-ac76-afe8db7942ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Производитель
+type: news
+description: 'Информация о производителе'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

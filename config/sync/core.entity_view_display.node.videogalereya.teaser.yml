@@ -1,0 +1,45 @@
+uuid: b9432a41-7de4-457e-bcf5-4a93775d7e7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.videogalereya.body
+    - field.field.node.videogalereya.field_media
+    - image.style.medium
+    - node.type.videogalereya
+  module:
+    - media
+    - text
+    - user
+id: node.videogalereya.teaser
+targetEntityType: node
+bundle: videogalereya
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_media:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

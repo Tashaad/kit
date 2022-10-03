@@ -1,5 +1,5 @@
 uuid: 07b0c411-3a4a-4178-82fb-c6f8ccf119cd
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
@@ -8,6 +8,7 @@ dependencies:
     - comment
     - contact
     - filter
+    - media
     - search
     - system
 _core:
@@ -22,3 +23,4 @@ permissions:
   - 'access site-wide contact form'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view media'

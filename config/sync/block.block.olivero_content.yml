@@ -1,5 +1,5 @@
 uuid: 9cf0d2e9-be3d-4d1f-a42d-36a383e1e579
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -16,7 +16,11 @@ provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: 'Содержимое страницы'
   label_display: '0'
   provider: system
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '</front>'

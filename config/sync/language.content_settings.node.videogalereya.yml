@@ -1,0 +1,11 @@
+uuid: 8db22c0f-8a8f-44f9-97ff-138eb54cc924
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.videogalereya
+id: node.videogalereya
+target_entity_type_id: node
+target_bundle: videogalereya
+default_langcode: site_default
+language_alterable: false

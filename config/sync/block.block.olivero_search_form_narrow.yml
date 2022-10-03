@@ -1,5 +1,5 @@
 uuid: 4467a7ca-9fad-4424-9980-791aa83d7a8e
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
@@ -11,12 +11,12 @@ _core:
 id: olivero_search_form_narrow
 theme: olivero
 region: primary_menu
-weight: -4
+weight: -6
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: 'Search form (narrow)'
+  label: 'Форма поиска (узкая)'
   label_display: '0'
   provider: search
   page_id: ''

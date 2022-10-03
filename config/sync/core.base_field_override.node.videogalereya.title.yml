@@ -1,0 +1,18 @@
+uuid: 8ef9f545-53df-4e8e-8979-e8588c92d9cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.videogalereya
+id: node.videogalereya.title
+field_name: title
+entity_type: node
+bundle: videogalereya
+label: Видео
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

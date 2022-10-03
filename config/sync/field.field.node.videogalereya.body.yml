@@ -1,0 +1,23 @@
+uuid: efd34e86-3d5e-4d76-9278-eb16c248699e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.videogalereya
+  module:
+    - text
+id: node.videogalereya.body
+field_name: body
+entity_type: node
+bundle: videogalereya
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

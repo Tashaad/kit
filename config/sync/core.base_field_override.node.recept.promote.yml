@@ -1,0 +1,22 @@
+uuid: 543bc41f-975e-414c-be58-2e2be77211fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.recept
+id: node.recept.promote
+field_name: promote
+entity_type: node
+bundle: recept
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

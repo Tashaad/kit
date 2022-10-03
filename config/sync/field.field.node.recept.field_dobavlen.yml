@@ -1,0 +1,29 @@
+uuid: 74bd9e40-dd72-43a0-af46-a6c8c29862cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dobavlen
+    - node.type.news
+    - node.type.recept
+id: node.recept.field_dobavlen
+field_name: field_dobavlen
+entity_type: node
+bundle: recept
+label: Добавлен
+description: 'Выберите производителя, который предоставил этот рецепт.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      news: news
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

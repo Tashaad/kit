@@ -1,0 +1,29 @@
+uuid: cd654e3d-9a3e-4a7d-b947-02add7eed848
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredienty
+    - node.type.recept
+    - taxonomy.vocabulary.ingredienty
+id: node.recept.field_ingredienty
+field_name: field_ingredienty
+entity_type: node
+bundle: recept
+label: Ингредиенты
+description: 'Введите ингредиенты, которые посетители сайта могут искать.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ingredienty: ingredienty
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
