@@ -1,0 +1,29 @@
+uuid: 7010038d-36c3-46c4-a6eb-dc32ea178668
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__events_block_upcoming
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:events-block_upcoming'
+settings:
+  id: 'views_block:events-block_upcoming'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: '4'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

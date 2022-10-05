@@ -1,0 +1,20 @@
+uuid: 0d2dcd97-86ae-438c-b099-7db56605468b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_izobrazhenie_sobytiy
+field_name: field_izobrazhenie_sobytiy
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

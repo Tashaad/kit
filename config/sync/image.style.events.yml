@@ -1,0 +1,15 @@
+uuid: 95ef64b7-1ca7-4f7d-8d14-7cd5bff5e4cb
+langcode: en
+status: true
+dependencies: {  }
+name: events
+label: Events
+effects:
+  7dbb510c-2043-4bb2-a10d-fb1a78c645ce:
+    uuid: 7dbb510c-2043-4bb2-a10d-fb1a78c645ce
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 200
+      anchor: center-center
