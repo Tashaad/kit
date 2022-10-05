@@ -1,0 +1,55 @@
+uuid: 69c443d0-ae4b-4790-b425-eab4785a99f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.college_leadership.field_fio
+    - field.field.paragraph.college_leadership.field_opisanie
+    - field.field.paragraph.college_leadership.field_photo
+    - field.field.paragraph.college_leadership.field_telefon
+    - image.style.rukovodstvo
+    - paragraphs.paragraphs_type.college_leadership
+  module:
+    - image
+    - telephone
+id: paragraph.college_leadership.default
+targetEntityType: paragraph
+bundle: college_leadership
+mode: default
+content:
+  field_fio:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_opisanie:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_photo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: rukovodstvo
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_telefon:
+    type: telephone_link
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

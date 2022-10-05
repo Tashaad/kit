@@ -1,0 +1,10 @@
+uuid: 4ae0c647-5204-4160-a21d-1d6cdde828c1
+langcode: en
+status: true
+dependencies: {  }
+id: college_leadership
+label: 'College Leadership'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

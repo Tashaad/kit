@@ -1,0 +1,21 @@
+uuid: e8b23a93-5509-4d46-8121-154344eeba8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_telefon
+    - paragraphs.paragraphs_type.college_leadership
+  module:
+    - telephone
+id: paragraph.college_leadership.field_telefon
+field_name: field_telefon
+entity_type: paragraph
+bundle: college_leadership
+label: Телефон
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

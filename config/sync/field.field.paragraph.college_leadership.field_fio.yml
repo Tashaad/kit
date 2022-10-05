@@ -1,0 +1,19 @@
+uuid: 43b217ba-3f2f-45ec-afe5-96ca687b1157
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_fio
+    - paragraphs.paragraphs_type.college_leadership
+id: paragraph.college_leadership.field_fio
+field_name: field_fio
+entity_type: paragraph
+bundle: college_leadership
+label: ФИО
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

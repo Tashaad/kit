@@ -1,0 +1,19 @@
+uuid: 36dbce75-c623-4251-a399-8c4b710d845b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_opisanie
+    - paragraphs.paragraphs_type.college_leadership
+id: paragraph.college_leadership.field_opisanie
+field_name: field_opisanie
+entity_type: paragraph
+bundle: college_leadership
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,16 @@
+uuid: febf30e8-25d1-4706-bb9b-940cfa1853d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: rukovodstvo
+label: Руководство
+effects:
+  9e58f41b-a8e5-47c0-88da-5adac0213382:
+    uuid: 9e58f41b-a8e5-47c0-88da-5adac0213382
+    id: image_effects_mirror
+    weight: 1
+    data:
+      x_axis: true
+      y_axis: false
