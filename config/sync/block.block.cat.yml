@@ -1,0 +1,20 @@
+uuid: 5d687565-695a-4485-9234-1660580cac12
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - dorohovna
+id: cat
+theme: dorohovna
+region: sidebar
+weight: 0
+provider: null
+plugin: custom_features_cat
+settings:
+  id: custom_features_cat
+  label: Cat
+  label_display: visible
+  provider: custom_features
+visibility: {  }

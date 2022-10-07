@@ -1,0 +1,23 @@
+uuid: a5a29e86-48b4-443f-a288-35fd9840fd4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - dorohovna
+id: kit
+theme: dorohovna
+region: sidebar
+weight: 0
+provider: null
+plugin: custom_features_kit
+settings:
+  id: custom_features_kit
+  label: Kit
+  label_display: visible
+  provider: custom_features
+  foo: 'Hello world!'
+  email: dorohnatala46@gmail.by
+  date: '2022-10-07'
+visibility: {  }

@@ -1,0 +1,8 @@
+custom_features.reports:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\custom_features\Controller\ExampleController::content'
+    _title: 'Hello'
+  requirements:
+    _access: 'TRUE'
+

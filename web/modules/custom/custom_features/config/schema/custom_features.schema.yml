@@ -1,0 +1,15 @@
+block.settings.custom_features_kit:
+  type: block_settings
+  label: 'Kit block'
+  mapping:
+    foo:
+      type: string
+      label: Foo
+
+block.settings.custom_features_cat:
+  type: block_settings
+  label: 'Cat block'
+  mapping:
+    foo:
+      type: string
+      label: Foo
