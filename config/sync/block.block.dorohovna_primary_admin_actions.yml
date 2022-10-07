@@ -1,0 +1,20 @@
+uuid: cac5b4de-8e23-4be7-8dc9-f67ec71ebff5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dorohovna
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: dorohovna_primary_admin_actions
+theme: dorohovna
+region: highlighted
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

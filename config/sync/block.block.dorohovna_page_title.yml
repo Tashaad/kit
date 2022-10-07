@@ -1,0 +1,20 @@
+uuid: 1b899768-a051-446e-9fc2-89e91a00e1fa
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dorohovna
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: dorohovna_page_title
+theme: dorohovna
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

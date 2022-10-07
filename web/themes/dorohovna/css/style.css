@@ -1,0 +1,37 @@
+.leadership {
+  display: flex;
+}
+
+.field--name-field-fio{
+  font-size: 24px;
+  line-height: 32px;
+  width: 400px;
+
+}
+
+.field--name-field-opisanie{
+}
+
+
+
+.leadership-photo {}
+.leadership-photo img {
+  border-radius: 100px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.leadership-info{
+  display: flex;
+  flex-flow: column;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-top: 34px;
+
+
+}
+
+.leadership-info a{
+  text-decoration: none;
+  color: #1C0320;
+}

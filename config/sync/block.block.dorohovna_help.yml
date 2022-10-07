@@ -1,0 +1,22 @@
+uuid: d0a95b33-b61b-4a4f-ad80-9d35846b226c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dorohovna
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: dorohovna_help
+theme: dorohovna
+region: content_above
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

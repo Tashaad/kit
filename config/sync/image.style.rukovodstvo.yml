@@ -10,7 +10,15 @@ effects:
   9e58f41b-a8e5-47c0-88da-5adac0213382:
     uuid: 9e58f41b-a8e5-47c0-88da-5adac0213382
     id: image_effects_mirror
-    weight: 1
+    weight: -9
     data:
       x_axis: true
       y_axis: false
+  6998ed5f-08b6-4b01-ab0a-05d9a83c7da5:
+    uuid: 6998ed5f-08b6-4b01-ab0a-05d9a83c7da5
+    id: image_scale_and_crop
+    weight: -10
+    data:
+      width: 200
+      height: 200
+      anchor: center-center

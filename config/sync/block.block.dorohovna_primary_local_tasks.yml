@@ -1,0 +1,22 @@
+uuid: 6e1d57e8-3944-4bfa-8433-73424a2cb2f6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dorohovna
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: dorohovna_primary_local_tasks
+theme: dorohovna
+region: highlighted
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,15 @@
+uuid: a35af86a-5076-4495-b7bf-a3062d7e5266
+langcode: en
+status: true
+dependencies: {  }
+name: leadership
+label: leadership
+effects:
+  6f6d05ba-2759-46ac-9e18-672747bda3b9:
+    uuid: 6f6d05ba-2759-46ac-9e18-672747bda3b9
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      anchor: center-center
