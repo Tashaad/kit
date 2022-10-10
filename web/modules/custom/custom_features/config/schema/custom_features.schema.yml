@@ -13,3 +13,19 @@ block.settings.custom_features_cat:
     foo:
       type: string
       label: Foo
+
+block.settings.custom_features_reference:
+  type: block_settings
+  label: 'Reference block'
+  mapping:
+    foo:
+      type: string
+      label: Foo
+
+block.settings.custom_features_another:
+  type: block_settings
+  label: 'Another block'
+  mapping:
+    foo:
+      type: string
+      label: Foo

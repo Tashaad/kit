@@ -9,7 +9,7 @@ dependencies:
 id: cat
 theme: dorohovna
 region: sidebar
-weight: 0
+weight: -6
 provider: null
 plugin: custom_features_cat
 settings:

@@ -1,4 +1,4 @@
-uuid: a5a29e86-48b4-443f-a288-35fd9840fd4c
+uuid: 55bf52ac-f084-4910-9557-9565fbc689df
 langcode: en
 status: true
 dependencies:
@@ -6,18 +6,16 @@ dependencies:
     - custom_features
   theme:
     - dorohovna
-id: kit
+id: reference
 theme: dorohovna
 region: sidebar
-weight: -5
+weight: -7
 provider: null
-plugin: custom_features_kit
+plugin: custom_features_reference
 settings:
-  id: custom_features_kit
-  label: Kit
+  id: custom_features_reference
+  label: Reference
   label_display: visible
   provider: custom_features
   foo: 'Hello world!'
-  email: dorohnatala46@gmail.by
-  date: '2022-10-07'
 visibility: {  }

@@ -1,22 +1,21 @@
-uuid: a2df5252-6eab-46ca-8580-834dc8ff9ef2
+uuid: 46bec32d-e634-49e7-a23e-a49e70d12699
 langcode: ru
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.user.card
     - field.field.user.user.field_goroda
     - field.field.user.user.field_telefon
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - image
     - telephone
     - user
 _core:
   default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
-id: user.user.default
+id: user.user.card
 targetEntityType: user
 bundle: user
-mode: default
+mode: card
 content:
   field_goroda:
     type: entity_reference_label
@@ -24,31 +23,17 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
   field_telefon:
     type: telephone_link
-    label: above
+    label: hidden
     settings:
       title: ''
     third_party_settings: {  }
-    weight: 2
-    region: content
-  member_for:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  user_picture:
-    type: image
-    label: hidden
-    settings:
-      image_link: content
-      image_style: thumbnail
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
 hidden:
   langcode: true
+  member_for: true
+  user_picture: true

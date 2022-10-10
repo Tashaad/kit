@@ -1,0 +1,30 @@
+uuid: a703319a-7ff3-43cc-baba-20cb1c41f2e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_goroda
+    - taxonomy.vocabulary.goroda
+  module:
+    - user
+id: user.user.field_goroda
+field_name: field_goroda
+entity_type: user
+bundle: user
+label: Города
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      goroda: goroda
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

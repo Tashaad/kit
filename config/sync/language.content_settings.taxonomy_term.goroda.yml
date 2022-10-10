@@ -1,0 +1,11 @@
+uuid: d2c75fae-68d4-45d0-b4a2-17539e7c8b03
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.goroda
+id: taxonomy_term.goroda
+target_entity_type_id: taxonomy_term
+target_bundle: goroda
+default_langcode: site_default
+language_alterable: false

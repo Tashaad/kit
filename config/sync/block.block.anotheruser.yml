@@ -1,0 +1,23 @@
+uuid: 3a96fa7b-c253-4901-9185-732bbf38def3
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_features
+  theme:
+    - dorohovna
+id: anotheruser
+theme: dorohovna
+region: header
+weight: 0
+provider: null
+plugin: custom_features_another
+settings:
+  id: custom_features_another
+  label: 'Another user'
+  label_display: visible
+  provider: custom_features
+  context_mapping:
+    another_user: '@user.current_user_context:current_user'
+  foo: 'Hello world!'
+visibility: {  }
