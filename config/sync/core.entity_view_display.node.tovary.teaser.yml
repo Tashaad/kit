@@ -1,0 +1,35 @@
+uuid: 25caef50-28b2-4c8d-bc6e-eeb64b2ed193
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tovary.body
+    - field.field.node.tovary.field_kolichestvo
+    - field.field.node.tovary.field_stoimoct
+    - node.type.tovary
+  module:
+    - text
+    - user
+id: node.tovary.teaser
+targetEntityType: node
+bundle: tovary
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_kolichestvo: true
+  field_stoimoct: true
+  langcode: true

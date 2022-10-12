@@ -1,0 +1,18 @@
+uuid: eff1b9d3-0f6f-44f2-b154-ac4e53125867
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Товары
+type: tovary
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

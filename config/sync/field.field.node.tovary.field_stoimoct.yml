@@ -1,0 +1,23 @@
+uuid: 3b9025cd-d4f2-49d9-9e5e-43a2ed2b6dd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_stoimoct
+    - node.type.tovary
+id: node.tovary.field_stoimoct
+field_name: field_stoimoct
+entity_type: node
+bundle: tovary
+label: Стоимость
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

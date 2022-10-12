@@ -1,4 +1,4 @@
-uuid: 5d687565-695a-4485-9234-1660580cac12
+uuid: 40122840-9433-45a8-8a16-dd186715aa67
 langcode: en
 status: true
 dependencies:
@@ -6,15 +6,16 @@ dependencies:
     - custom_features
   theme:
     - dorohovna
-id: cat
+id: sample
 theme: dorohovna
 region: sidebar
-weight: -7
+weight: -9
 provider: null
-plugin: custom_features_cat
+plugin: custom_features_sample
 settings:
-  id: custom_features_cat
-  label: Cat
+  id: custom_features_sample
+  label: Sample
   label_display: visible
   provider: custom_features
+  foo: 'Hello world!'
 visibility: {  }

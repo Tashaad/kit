@@ -9,7 +9,7 @@ dependencies:
 id: kit
 theme: dorohovna
 region: sidebar
-weight: -5
+weight: -6
 provider: null
 plugin: custom_features_kit
 settings:

@@ -29,3 +29,11 @@ block.settings.custom_features_another:
     foo:
       type: string
       label: Foo
+
+block.settings.custom_features_sample:
+  type: block_settings
+  label: 'Sample block'
+  mapping:
+    foo:
+      type: string
+      label: Foo

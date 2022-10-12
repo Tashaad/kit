@@ -1,0 +1,5 @@
+services:
+  custom_features.my_service:
+    class: Drupal\custom_features\My
+    arguments:
+      - '@entity_type.manager'

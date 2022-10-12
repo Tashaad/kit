@@ -1,0 +1,20 @@
+uuid: ab911694-c12e-446b-b18d-77843fdaaee3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_kolichestvo
+field_name: field_kolichestvo
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

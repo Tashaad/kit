@@ -1,0 +1,11 @@
+uuid: fcec3f08-da7f-49f6-b90f-4a6898fc24bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tovary
+id: node.tovary
+target_entity_type_id: node
+target_bundle: tovary
+default_langcode: site_default
+language_alterable: false
